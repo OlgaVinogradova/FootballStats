@@ -1,0 +1,106 @@
+.filters {
+  min-height: 50px;
+  z-index: 1;
+  margin: 0;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #cbead9;
+  border-bottom: 3px solid #9ad3b4;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contentCard {
+  margin: auto 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.l-card {
+  margin: 10px;
+  height: 120px;
+  width: 120px;
+  border: 2px solid #9ad3b4;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-card_img{
+  height: 100px;
+  width: auto;
+  max-width: 100px;
+}
+
+.card_content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.l-name {
+  text-transform: uppercase;
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.l-name_small {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #024820;
+}
+
+.img {
+  height: 25px;
+  width: auto;
+}
+
+.table {
+	width: 100%;
+	border: none;
+  margin-top: 60px;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 10px;
+	background: #d8d8d8;
+	font-size: 20px;
+}
+.table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 10px;
+	font-size: 18px;
+	vertical-align: center;
+}
+.table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+.table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}

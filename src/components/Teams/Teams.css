@@ -1,0 +1,130 @@
+.filters {
+  min-height: 50px;
+  z-index: 1;
+  margin: 0;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: #a3b1bc;
+  border-bottom: 3px solid #a3b1bc;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contentCard {
+  margin: auto 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  margin: 10px;
+  height: 300px;
+  width: 250px;
+  border: 2px solid #a3b1bc;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team_card {
+  margin: 10px;
+  height: 150px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.card_img{
+  height: 100px;
+  width: auto;
+  max-width: 150px;
+}
+
+.card_content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.name_small {
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #0c012b;
+}
+
+.team_card_content {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_name {
+  margin: 10px 0;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.team_name_small {
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #0c012b;
+}
+
+.table {
+	width: 100%;
+	border: none;
+  margin-top: 60px;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 10px;
+	background: #d8d8d8;
+	font-size: 20px;
+}
+.table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 10px;
+	font-size: 18px;
+	vertical-align: center;
+}
+.table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+.table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
